@@ -84,9 +84,9 @@ describe OmniAuth::LoginDotGov::UserinfoRequest do
 
         it 'raises an error' do
           expect { subject.request_userinfo }.to raise_error(
-                                                   OmniAuth::LoginDotGov::UserinfoRequestError,
-                                                   'Userinfo request failed with status code: 403'
-                                                 )
+            OmniAuth::LoginDotGov::UserinfoRequestError,
+            'Userinfo request failed with status code: 403'
+          )
         end
       end
     end
