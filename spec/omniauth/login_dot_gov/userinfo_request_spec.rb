@@ -57,7 +57,7 @@ describe OmniAuth::LoginDotGov::UserinfoRequest do
       end
 
       context 'returns userinfo with verified_at timestamp' do
-        let(:verified_at) { '2024-04-26 11:48:00.000' }
+        let(:verified_at) { 1723054856 }
         let(:response_body) do
           {
             sub: uuid,
