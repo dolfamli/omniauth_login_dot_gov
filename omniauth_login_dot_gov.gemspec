@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/18F/omniauth_login_dot_gov'
   s.summary = 'Login.gov OmniAuth strategy'
   s.description = 'An OmniAuth strategy for using OIDC to authenticate with Login.gov'
-  s.date = Time.now.utc.strftime('%Y-%m-%d')
   s.files = Dir.glob('app/**/*') + Dir.glob('lib/**/*') + [
     'LICENSE.md',
     'README.md',
@@ -21,7 +20,6 @@ Gem::Specification.new do |s|
     'ominauth_login_dot_gov.gemspec',
   ]
   s.license = 'LICENSE'
-  s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.require_paths = ['lib']
 
