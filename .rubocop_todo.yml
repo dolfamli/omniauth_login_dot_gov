@@ -6,13 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 6
-# Configuration parameters: EnforcedStyle, AllowedGems.
-# SupportedStyles: Gemfile, gems.rb, gemspec
-Gemspec/DevelopmentDependencies:
-  Exclude:
-    - 'omniauth_login_dot_gov.gemspec'
-
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 Gemspec/RequireMFA:
