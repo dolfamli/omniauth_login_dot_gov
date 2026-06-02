@@ -19,11 +19,6 @@ Gemspec/RequireMFA:
   Exclude:
     - 'omniauth_login_dot_gov.gemspec'
 
-# Offense count: 1
-Gemspec/RequiredRubyVersion:
-  Exclude:
-    - 'omniauth_login_dot_gov.gemspec'
-
 # Offense count: 7
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: EnforcedStyle, IndentOneStep, IndentationWidth.
