@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.license = 'LICENSE'
   s.executables = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.require_paths = ['lib']
+  s.metadata['rubygems_mfa_required'] = 'true'
 
   s.add_dependency 'faraday', '~> 2.0'
   s.add_dependency 'json-jwt', '~> 1.11'
